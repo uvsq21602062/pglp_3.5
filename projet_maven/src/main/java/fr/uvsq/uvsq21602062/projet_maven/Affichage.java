@@ -15,7 +15,11 @@ public class Affichage {
 		this.nomClasse = nomClasse;
 	}
 	
-	public void avertissement(String nomMethode) {
-		System.out.println("Appel à la methode " + nomMethode + " de la classe " + this.nomClasse);
+	public void avertissementDebut(String nomMethode) {
+		System.out.println("Debut de l'appel à la methode " + nomMethode + " de la classe " + this.nomClasse);
+	}
+	
+	public void avertissementFin(String nomMethode) {
+		System.out.println("Fin de l'appel à la methode " + nomMethode + " de la classe " + this.nomClasse);
 	}
 }

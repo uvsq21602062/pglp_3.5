@@ -18,6 +18,7 @@ public class UneClasseMetier {
 	}
 	
 	public void uneMethodeMetier() {
-		
+		this.a.avertissementDebut("uneMethodeMetier");
+		this.a.avertissementFin("uneMethodeMetier");
 	}
 }
