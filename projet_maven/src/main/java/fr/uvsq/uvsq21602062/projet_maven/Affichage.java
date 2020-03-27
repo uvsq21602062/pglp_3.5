@@ -14,4 +14,8 @@ public class Affichage {
 	public void setNomClasse(String nomClasse) {
 		this.nomClasse = nomClasse;
 	}
+	
+	public void avertissement(String nomMethode) {
+		System.out.println("Appel à la methode " + nomMethode + " de la classe " + this.nomClasse);
+	}
 }
